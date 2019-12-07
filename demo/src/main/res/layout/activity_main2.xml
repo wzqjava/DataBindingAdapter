@@ -10,6 +10,7 @@
             type="androidx.recyclerview.widget.RecyclerView.Adapter" />
 
         <import type="android.view.View.OnClickListener" />
+
         <variable
             name="layoutManager"
             type="androidx.recyclerview.widget.RecyclerView.LayoutManager" />
@@ -23,20 +24,14 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity2">
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="427dp"
+            android:layout_height="match_parent"
             app:adapter="@{adapter}"
             app:layoutManager="@{layoutManager}" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="click"
-            android:text="Button" />
 
     </LinearLayout>
 </layout>

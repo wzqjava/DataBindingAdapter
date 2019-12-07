@@ -15,14 +15,14 @@
  */
 package com.github.markzhai.recyclerview.demo;
 
-import android.databinding.BaseObservable;
+import androidx.databinding.BaseObservable;
 
-public class EmployeeViewModel extends BaseObservable {
+public class Bean1 extends BaseObservable {
 
     public String name;
     public int age;
 
-    public EmployeeViewModel(String name, int age) {
+    public Bean1(String name, int age) {
         this.name = name;
         this.age = age;
     }

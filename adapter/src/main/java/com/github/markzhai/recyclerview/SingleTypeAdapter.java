@@ -16,9 +16,10 @@
 package com.github.markzhai.recyclerview;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.support.annotation.LayoutRes;
 import android.view.ViewGroup;
+
+import androidx.annotation.LayoutRes;
+import androidx.databinding.DataBindingUtil;
 
 import java.util.ArrayList;
 import java.util.List;

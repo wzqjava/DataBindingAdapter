@@ -16,10 +16,11 @@
 package com.github.markzhai.recyclerview;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.support.annotation.LayoutRes;
-import android.support.v4.util.ArrayMap;
 import android.view.ViewGroup;
+
+import androidx.annotation.LayoutRes;
+import androidx.collection.ArrayMap;
+import androidx.databinding.DataBindingUtil;
 
 import java.util.ArrayList;
 import java.util.List;

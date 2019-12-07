@@ -15,8 +15,8 @@
  */
 package com.github.markzhai.recyclerview;
 
-import android.databinding.ViewDataBinding;
-import android.support.v7.widget.RecyclerView;
+import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * @author markzhai on 16/3/18

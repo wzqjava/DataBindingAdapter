@@ -1,15 +1,17 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.android.tools.build:gradle:3.5.2'
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        google()
     }
 }
 
@@ -17,25 +19,20 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-def supportVersion = "24.2.0"
+def supportVersion = "28.0.0"
 
 project.ext {
     applicationId = "com.github.markzhai.recyclerview.demo"
-    buildToolsVersion = "24.0.1"
-    compileSdkVersion = 23
-    minSdkVersion = 9
-    targetSdkVersion = 22
+    buildToolsVersion = "28.0.0"
+    compileSdkVersion = 28
+    minSdkVersion = 19
+    targetSdkVersion = 28
     versionCode = 1
     versionName = "1.0.0"
     abortOnLintError = false
     checkLintRelease = false
     useJack = false
     abortOnLintError = false
-
     javaVersion = JavaVersion.VERSION_1_8
 
-    libSupportAppcompat = "com.android.support:appcompat-v7:${supportVersion}"
-    libSupportDesign = "com.android.support:design:${supportVersion}"
-    libSupportRecyclerview = "com.android.support:recyclerview-v7:${supportVersion}"
-    libSupportV4 = "com.android.support:support-v4:${supportVersion}"
 }
